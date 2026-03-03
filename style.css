@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background-color: #0f0f0f;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(20, 12px);
+  gap: 8px;
+  justify-content: center;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #2a2a2a;
+  transition: 0.3s ease;
+}
+
+.filled {
+  background-color: white;
+}
